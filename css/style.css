@@ -1,5 +1,6 @@
 ﻿body {
-    background-color:lightblue;
+    background-color: powderblue;
+    background-size: cover;
     text-align:center;
 }
 
@@ -18,7 +19,7 @@ ul {
     width: 100%;
 }
 
-li {
+a {
     float: left;
     border-right: 1px solid #bbb;
 }
@@ -39,6 +40,6 @@ li {
     background-color: #04AA6D;
 }
 
-li:last-child {
+a:last-child {
     border-right: none;
 }
