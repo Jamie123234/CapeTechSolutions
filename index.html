@@ -3,6 +3,16 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        button {
+            background-color: purple;
+            color: white;
+            border: none;
+            height: 50px;
+            width: 150px;
+            font-family: Tahoma;
+            font-size: 15px;
+            border-radius: 10px;
+        }
         * {
             box-sizing: border-box;
         }
@@ -76,7 +86,7 @@
             }
         }
         img {
-            border-radius: 10%;
+            border-radius: 3%;
         }
     </style>
     <meta charset="utf-8" />
@@ -85,9 +95,9 @@
 </head>
 <body>
     <ul>
-        <li><a class="active" href="#home">Home</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
         <li><a href="ProductsAndServices.html">Products & Services</a></li>
-        <li style="float:right"><a href="#about">About</a></li>
+        <li style="float:right"><a href="about.html">About</a></li>
     </ul>
     <br />
     <br />
@@ -115,7 +125,8 @@
         <span class="dot"></span>
         <span class="dot"></span>
     </div>
-
+    <br />
+    <a href="about.html"><button>Contact Me</button></a>
     <script>
         let slideIndex = 0;
         showSlides();
